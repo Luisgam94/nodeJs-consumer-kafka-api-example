@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-kafka-consumer-example",
+  "version": "1.0.0",
+  "description": "project example for consumer in topic kafka with nodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "kafkajs": "^1.15.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "pino": "^7.2.0"
+  }
+}
